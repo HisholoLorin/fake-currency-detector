@@ -4,10 +4,10 @@ from keras.preprocessing import image
 from keras.saving import load_model
 import cv2
 #from tensorflow.keras.models import load_model
-from app.notechecker import check
+from notechecker import check
 import numpy as np
-from app.ocr import textinfo
-from app.process_img import process
+from ocr import textinfo
+from process_img import process
 import random
 import string
 
